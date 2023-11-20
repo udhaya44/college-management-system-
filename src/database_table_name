@@ -1,0 +1,36 @@
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    age INT,
+    gender VARCHAR(10),
+    city VARCHAR(50),
+    branch VARCHAR(50),
+    subject1 INT,
+    subject2 INT,
+    subject3 INT,
+    subject4 INT,
+    subject5 INT
+);
+//student
+-------------------------------------
+CREATE TABLE teachers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    branch VARCHAR(50)
+);
+//teacher
+------------------------------------------
+CREATE TABLE hods (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50),
+    password VARCHAR(255)
+);
+//hod
+--------------------------------------------
+CREATE TABLE admins (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50),
+    password VARCHAR(255)
+);
+//admins
+------------------------------
